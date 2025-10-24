@@ -1,8 +1,6 @@
 import type React from "react"
 import { Inter, JetBrains_Mono } from "next/font/google"
 import { ThemeProvider } from "@/components/theme-provider"
-import "./globals.css"
-
 const geistSans = Inter({
   variable: "--font-geist-sans",
   subsets: ["latin"],
